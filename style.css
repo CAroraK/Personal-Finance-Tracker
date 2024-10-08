@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.transactions-container {
+  margin-top: 20px;
+}
+
+#transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+#transaction-list li {
+  background: #eee;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-container p {
+  font-size: 18px;
+  margin: 10px 0;
+}
